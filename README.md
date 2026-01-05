@@ -1,11 +1,11 @@
-# F1 Race Replay 🏎️ 🏁
+# Apex Telemetry 🏎️ 🏁
 
 A Python application for visualizing Formula 1 race telemetry and replaying race events with interactive controls and a graphical interface.
 
 ![Race Replay Preview](./resources/preview.png)
 
 ## Features
-gggg
+
 - **Race Replay Visualization:** Watch the race unfold with real-time driver positions on a rendered track.
 - **Leaderboard:** See live driver positions and current tyre compounds.
 - **Lap & Time Display:** Track the current lap and total race time.
@@ -135,7 +135,6 @@ f1-race-replay/
 ├── main.py                    # Entry point, handles session loading and starts the replay
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project documentation
-├── roadmap.md                 # Planned features and project vision
 ├── resources/
 │   └── preview.png           # Race replay preview image
 ├── src/
@@ -156,17 +155,6 @@ f1-race-replay/
 
 - Change track width, colors, and UI layout in `src/arcade_replay.py`.
 - Adjust telemetry processing in `src/f1_data.py`.
-
-## Contributing
-
-There have been several contributions from the community that have helped enhance this project. I have added a [contributors.md](./contributors.md) file to acknowledge those who have contributed features and improvements.
-
-If you would like to contribute, feel free to:
-
-- Open pull requests for UI improvements or new features.
-- Report issues on GitHub.
-
-Please see [roadmap.md](./roadmap.md) for planned features and project vision.
 
 # Known Issues
 
