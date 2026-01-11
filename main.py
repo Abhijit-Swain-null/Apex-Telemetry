@@ -1,7 +1,7 @@
 import sys
 
 from PySide6.QtWidgets import QApplication
-from src.cbli.race_selection import cli_load
+from src.cli.race_selection import cli_load
 
 from src.arcade_replay import run_arcade_replay
 from src.f1_data import (
